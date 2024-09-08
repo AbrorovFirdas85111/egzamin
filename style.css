@@ -1,0 +1,529 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+.asosiy{
+    width: 100%;
+    height: 600px;
+}
+.header{
+    width: 100%;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+}
+.nav {
+    width: 80%;
+    height: 40px;
+    display: flex;
+}
+.nav1{
+    display: flex;
+}
+.nav2{
+    display: flex;
+    width: 80%;
+    justify-content: end;
+    align-items: center;
+}
+.nav1 ul{
+    display: flex;
+    gap: 20px;
+}
+.nav1 ul li {
+    list-style: none;
+}
+.nav2 ul{
+    display: flex;
+}
+.nav2 ul li {
+    list-style: none;
+}
+.header2{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.liv{
+    width: 80%;
+    height: 50px;
+    display: flex;
+}
+.liv1{
+    width: 20%;
+    height: 50px;
+}
+.liv1 img {
+    width: 100%;
+    height: 50px;
+}
+.liv2{
+    width: 80%;
+    height: 50px;
+}
+.liv2 ul {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.liv2 ul li {
+    list-style: none;
+    font-size: 150%;
+}
+.liv3{
+    width: 20%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.liv3 button{
+    width: 100%;
+    height: 45px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    background-color: rgb(32, 32, 204);
+}
+/* karusel start */
+/* footer start */
+.contin{
+    width: 100%;
+    height: 210px;
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+}
+.con1{
+    width: 23%;
+    height: 200px;
+    background-color: rgb(138, 180, 180);
+}
+.con1 img{
+    width: 100%;
+    height: 100%;
+}
+.con2{
+    width: 23%;
+    height: 200px;
+    background-color: rgb(138, 180, 180);
+}
+.con2 img{
+    width: 100%;
+    height: 100%;
+}
+.con3{
+    width: 23%;
+    height: 200px;
+    background-color: rgb(138, 180, 180);
+}
+.con3 img{
+    width: 100%;
+    height: 100%;
+}
+/* past start */
+.continer{
+    width: 100%;
+    height: 300px;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.services-section {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    text-align: center;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.service img {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.service p {
+    font-size: 14px;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .service {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
+/* past end */
+/* zo'r start */
+.kod{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 87, 183, 0.85);
+}
+.kod .statistics-section {
+    background-image: url('background-image.jpg'); /* replace with the path to your image */
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    position: relative;
+}
+
+.kod .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.kod .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    z-index: 2;
+    position: relative;
+}
+
+.kod .stat-item {
+    text-align: center;
+}
+
+.kod .stat-item img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.kod h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.kod p {
+    font-size: 14px;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .stat-item {
+        margin-bottom: 20px;
+    }
+}
+/* zo'r end */
+/* zoro strat */
+.lop {
+    width: 100%;
+    height: 500px;
+}
+.lop .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.lop .intro-section {
+    padding: 50px 20px;
+}
+
+.lop h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.lop p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.lop .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.lop .who-we-are {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.lop h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.lop ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.lop ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #666;
+    display: flex;
+    align-items: center;
+}
+
+.lop ul li:before {
+    content: "•";
+    color: #3498db;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-right: 10px;
+}
+
+.lop .image-video {
+    width: 50%;
+    position: relative;
+}
+
+.lop .image-video img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.lop .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lop .play-button span {
+    font-size: 30px;
+    color: #3498db;
+}
+
+@media (max-width: 768px) {
+    .lop .content {
+        flex-direction: column;
+    }
+
+    .lop .who-we-are, .image-video {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .lop .who-we-are {
+        margin-bottom: 30px;
+    }
+}
+/* zoro end */
+/* ayanakoji start */
+.toji{
+    width: 100%;
+    height: 300px;
+}
+.toji .header {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.toji .header h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.toji .description {
+    color: #888;
+    margin-bottom: 30px;
+}
+
+.toji .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.toji button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.toji .view-details {
+    background-color: #007bff;
+    color: white;
+}
+
+.toji .get-pro {
+    background-color: #28a745;
+    color: white;
+}
+
+.toji .image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.toji .image-box {
+    position: relative;
+}
+
+.toji .image-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.toji .image-box .view-details {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 20px;
+    display: none;
+}
+
+.toji .image-box:hover .view-details {
+    display: block;
+}
+/* ayanakoji end */
+/* kisaki start */
+.mikey {
+    width: 100%;
+    height: 500px;
+}
+.mikey .container {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.mikey h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.mikey .subtext {
+    color: #777;
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.mikey .cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.mikey .card {
+    background-color: white;
+    border-radius: 8px;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.mikey .icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.mikey h3 {
+    color: #333;
+    margin: 15px 0;
+}
+
+.mikey .price {
+    font-size: 1.5em;
+    color: #007bff;
+}
+
+.mikey .price span {
+    font-size: 0.8em;
+    color: #666;
+}
+
+.mikey .mikey ul {
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.mikey ul li {
+    margin: 10px 0;
+    color: #333;
+}
+
+.mikey ul li .inactive {
+    color: #bbb;
+}
+
+.mikey button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mikey button:hover {
+    background-color: #0056b3;
+}
